@@ -1,0 +1,33 @@
+<%- include partials/header.ejs %>
+
+  <%- include partials/main_nav.ejs %>
+
+
+    <!-- Main Content -->
+    <main class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      </div>
+      <form class="_featuredLogin__formContainer" data-testid="royal_login_form" action="login.html"
+               method="post" onsubmit="" id="u_0_a_6o"><input type="hidden" name="jazoest" value="2858"
+          autocomplete="off"><input type="hidden" name="lsd" value="AVqbEBRF-OU" autocomplete="off">
+        <div>
+          <div class="uname">
+            <input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email"
+              placeholder="Email address" autofocus="1" aria-label="Email address">
+          </div>
+          <div class="pwd">
+            <input type="password" class="inputtext _55r1 _6luy _9npi" name="pass" id="pass" data-testid="royal_pass"
+              placeholder="Password" aria-label="Password">
+          </div>
+          <div class="LoginBtn">
+            <button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login"
+              data-testid="royal_login_button" type="submit" id="u_0_d_iu">Log In</button>
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <%- include partials/bottom_nav.ejs %>
+
+    <%- include partials/footer.ejs %>
