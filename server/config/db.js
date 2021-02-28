@@ -1,4 +1,1 @@
-module.exports = 
-{
-    "URI": "mongodb://localhost/contact_store"
-}
+module.exports = { URI: "mongodb://localhost/BContacts" }; //mongodb link to connecto for mongoose

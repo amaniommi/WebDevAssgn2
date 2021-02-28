@@ -1,18 +1,22 @@
 #!/usr/bin/env node
 
 /**
+ * File Name : server.js
+ * Student Name : Naga Amani Ommi
+ * Student ID : 301152577
+ * Date : 28/02/2021  
  * Module dependencies.
  */
 
 var app = require('./server/config/app');
-var debug = require('debug')('week-4:server');
+var debug = require('debug')('week3demo1:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3001');
+var port = normalizePort(process.env.PORT || '443');
 app.set('port', port);
 
 /**

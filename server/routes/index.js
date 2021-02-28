@@ -1,24 +1,48 @@
-let express = require('express');
+/* 
+File Name: index.js
+Student Name : Naga Amani Ommi
+Student ID : 301152577
+Date : 28/02/2021  
+*/
+let express = require("express");
+
 let router = express.Router();
+let indexController = require("../controllers/index")
 
-let indexController = require('../controllers/index');
-
+router.use(express.urlencoded());
 /* GET home page. */
-router.get('/', indexController.displayHomePage);
+router.get("/", indexController.displayHomePage)
 
-/* GET home page. */
-router.get('/home', indexController.displayHomePage);
+router.get("/home",indexController.displayHomePage );
 
-/* GET About Us page. */
-router.get('/about', indexController.displayAboutPage);
+//about page
+router.get("/about", indexController.displayAbout);
 
-/* GET Products page. */
-router.get('/products', indexController.displayProductsPage);
+//projects page
+router.get("/project", indexController.displayProjects);
 
-/* GET Services page. */
-router.get('/services', indexController.displayServicesPage);
+//services page
+router.get("/services",indexController.displayServices );
 
-/* GET Contact Us page. */
-router.get('/contact', indexController.displayBusinessContactView);
+//contact page
+router.get("/contact", indexController.displayContact);
+//perform post in contact page
+router.post("/contact",indexController.performContact );
+
+/*Adding Login page  */
+router.get("/login", indexController.displayLoginPage);
+
+/*Post for login page  */
+router.post("/login", indexController.processLoginPage);
+
+/*Adding Register page  */
+router.get("/register", indexController.displayRegisterPage);
+
+/*Post for register page  */
+router.post("/register", indexController.processRegisterPage);
+
+/*To perform logout*/
+
+router.get("/logout", indexController.performLogout);
 
 module.exports = router;
