@@ -1,0 +1,28 @@
+/* custom css goes here */
+nav {
+    background-color: rgba(179, 37, 125, 0.527); 
+    position: fixed;
+    color: rgb(26, 230, 230);
+    box-shadow: 0 4px 8px 0 rgba(11, 42, 216, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.jumbotron{
+    color : #f0126f;
+    text-align : center;
+    font-family: "SIMPSON";
+}
+h1 {
+    color : #f0126f;
+    text-align : center;
+    font-family: "SIMPSON";
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+._featuredLogin__formContainer
+{
+    color : #f0126f;
+    text-align : center;
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+}

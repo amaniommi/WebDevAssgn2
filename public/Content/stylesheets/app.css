@@ -1,0 +1,345 @@
+.logoimage{
+  
+    position: relative;
+    border-radius: 4px;
+    width: 150px;
+    margin: -45px;
+    bottom: 1px;
+    
+  }
+  
+ .navbar-expand{
+    background-color: rgba(37, 63, 179, 0.849); 
+    position: fixed;
+    color: azure;
+    box-shadow: 0 4px 8px 0 rgba(11, 42, 216, 0.986), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
+  /*---------------------------
+  Home CSS
+  -----------------------*/
+  #home  {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+ 
+  #home  p {
+    color: rgb(28, 15, 216);
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+
+  .home-btn{
+    text-align: center;
+
+  }
+  
+ .about-me-btn{
+   position:relative;
+   display: inline-block;
+   padding: 10px 30px;
+   font-size: 2em;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 500;
+   letter-spacing: 2px;
+   background-color: #431cd3;
+   color: #f3ebef;
+   font-size: 18px;
+   border-radius: 40px;
+  
+ }
+
+ .about-me-btn:hover{
+  box-shadow: inset -2px -2px 8px rgb(23, 12, 177),
+  
+
+ }
+ .about-me-btn:hover span{
+   display: inline-block;
+   transform: scale(0.98);
+
+ }
+  
+   @media (max-width: 768px) {
+    #home  h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #home  h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+  /*--------------------------------------------------------------
+# About-CSS
+--------------------------------------------------------------*/
+.about .title h2{
+  
+  margin-top: 3em;
+  padding-bottom: 2em;
+  text-align: left;
+  font-size: 37px;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 50%;
+  color: #0d1ad8;
+}
+.about .row p{
+  font-size: 21px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 35px;
+  color: #3e0dc7;
+}  
+
+  .about .row h4{
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 55px;
+    color: #3e0dc7;
+  
+
+}
+
+.about .content h3 {
+  font-size: 31px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 55px;
+  color: #3e0dc7;
+
+}
+
+.resume{
+  margin-top: 3em;
+  background: #2a0dd1;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  text-decoration: none;
+  align-items: center;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ /*------------------
+  project-CSS
+  -------------------*/
+   .project .section h2{
+    color:#6e19f7;
+    margin-top: 3em;
+    /* padding-bottom: 2em; */
+    text-align: left;
+    font-size: 37px;
+    font-weight: 800;
+    text-transform: initial;
+    width: 50%;
+    
+  }
+  .img1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .img2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project-row {
+    width: 100%;
+    margin: 100px auto 100px auto;
+    padding-left: 1em;
+    text-align: left;
+    padding-bottom: 3em;
+    
+  }
+  .project-row p{
+    text-align: left;
+    font-size: 21px;
+    font-family: "Playfair Display", serif;
+    line-height: 35px;
+    color: #3c6387;
+
+  }
+  .project-row h3{
+    text-align: center;
+    color: #173b6c;
+    font-weight: 700;
+  font-size: 26px;
+  }
+  /*--------------------------------------------------------------
+# Services-CSS
+--------------------------------------------------------------*/
+
+.services .title h2{
+  margin-top: 3em;
+  padding-bottom: 2em;
+  text-align: left;
+  font-size: 37px;
+  font-weight: 800;
+  text-transform: capitalize;
+  width: 50%;
+  color:#1421dd;
+}
+.services .title p{
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 35px;
+  color: #3c6387;
+
+}
+
+.services .row{
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  
+}
+
+
+@media (max-width: 768px) {
+  .services .icon-box::before {
+    bottom: 60%;
+  }
+}
+/*----------------------------------
+#Contact Me
+------------------------------------*/
+
+.contact .title h2{
+  margin-top: 3em;
+  padding-bottom: 2em;
+  text-align: left;
+  font-size: 37px;
+  font-weight: 800;
+  text-transform: initial;
+  width: 50%;
+  color:#331fe7;
+}
+.contact .about h2 {
+  letter-spacing: 3px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 35px;
+  line-height: 2;
+  font-weight: 500;
+  color: #1316da;
+  text-transform: initial;
+  
+}
+
+
+.contact .about p {
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 24px;
+  line-height: 35px;
+  color: #3c6387;
+}
+
+.contact .fblink {
+  padding-bottom: 15px;
+}
+
+.contact .fblink a {
+  display: inline-block;
+  background: #fff;
+  font-size: 18px;
+  color: #330eb9;
+  line-height: 2;
+  padding: 1px 0;
+  border-radius: 50%;
+  margin-right: 7px;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  transition: 0.8s;
+  border: 0.5px solid #7617e2;
+  text-decoration: none;
+   
+}
+
+.contact .fblink a:hover {
+  color: #fff;
+  background: #1206b9;
+  transform: scale(2,2);
+  
+}
+
+.contact .contact-info {
+  
+  color: #3c6387;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right:1em;
+}
+
+.contact .contact-info i {
+  font-size: 32px;
+  color: #1c51e2;
+  float: left;
+  line-height: 1;
+}
+
+.contact .contact-info p {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 24px;
+  line-height: 35px;
+  color: #3c6387;
+  padding: 0 0 11px 42px;
+
+}
+
+.contact .email-container{
+  padding-left:4em;
+}
+
+.contact .email-form input, .contact textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  
+}
+
+.contact .email-form input:focus, .contact textarea:focus {
+  border-color: #2b0fc7;
+  
+}
+
+.contact #submit-btn {
+  background: #1b0fc5;
+  border: 0;
+  padding: 10px 24px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  border-radius: 50px;
+  text-decoration: none;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.contact #submit-btn:hover {
+  background: #08b87d;
+}
+

@@ -1,0 +1,79 @@
+ <%-include partials/header.ejs%>
+<%-include partials/main_nav.ejs%>
+  <body>
+   
+    <section id="contact" class="contact section-bg" > 
+      <div class="container">
+
+        <div class="title">
+          <h2>Get in touch </h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="about">
+              <h2>Naga Amani Ommi</h2>
+              <p>Interested in working with me, please feel free to connect with me. Thank You!</p>
+              <div class="fblink">
+             
+                <a href="https://www.facebook.com/amani.ommi/" class="facebook"><i class="icofont-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-7 col-sm-6 col-lg-3">
+            <div class="contact-info">
+              <div>
+                <i class="icofont-phone"></i>
+                <p>Contact me on my number below number +91-9177064197</p>
+              </div>
+
+            </div>
+          </div>
+           <div class="col-lg-5 col-md-8 col-sm-6 email-container" >
+            <form action="" method="POST" class="email-form" id="emailfrm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="First Name" data-rule="required" data-msg="Please enter your first name"/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Last Name" data-rule="required" data-msg="Please enter your last name"/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Contact Number" pattern="[7-9]{1}[0-9]{9}" data-msg="Please enter your contact number"/>
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+            
+              <div class="text-center">
+                <input type="button" class="btn btn-primary" value="Submit Button" onclick="redirecthome()" id="submit-btn">
+               
+              </div>
+            </form>
+
+            
+          </div>
+          
+
+        </div>
+
+      </div>
+  
+    
+    <%-include partials/footer_nav.ejs%>
+    <%-include partials/footer.ejs%>
+  
+    

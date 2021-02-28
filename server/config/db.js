@@ -1,0 +1,2 @@
+module.exports = { URI: "mongodb+srv://Amani:59W1g4eC9NPVrMDW@cluster0.wjucs.mongodb.net/businessContacts?retryWrites=true&w=majority" }; //mongodb link to connecto for mongoose
+//module.exports = { URI: "mongodb://localhost/businessContacts"}
